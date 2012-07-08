@@ -1,3 +1,9 @@
+ipchangerd (0.3) unstable; urgency=low
+
+  * Fix issue where AAAA overrides A records.
+
+ -- Brad Cowie <brad@gizmoguy.net.nz>  Sun, 08 Jul 2012 16:38:28 +1200
+
 ipchangerd (0.2) unstable; urgency=low
 
   * Pass IP address to down and up scripts.
