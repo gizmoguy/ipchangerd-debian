@@ -1,3 +1,9 @@
+ipchangerd (0.4) unstable; urgency=low
+
+  * Drop stdout from ipchangerd to /dev/null in cronjob.
+
+ -- Brad Cowie <brad@gizmoguy.net.nz>  Sun, 08 Jul 2012 16:47:41 +1200
+
 ipchangerd (0.3) unstable; urgency=low
 
   * Fix issue where AAAA overrides A records.
