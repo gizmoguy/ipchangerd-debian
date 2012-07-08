@@ -1,0 +1,16 @@
+Source: ipchangerd
+Section: net
+Priority: extra
+Maintainer: Brad Cowie <brad@gizmoguy.net.nz>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://github.com/gizmoguy/ipchangerd
+#Vcs-Git: git://github.com/gizmoguy/ipchangerd.git
+
+Package: ipchangerd
+Architecture: all
+Depends: ${misc:Depends}, bind9-host
+Description: Simple script for running events based on IP address changes.
+ ipchangerd runs as a cronjob and will run a down and up script every time
+ it detects a host it monitors has changed IP address. Handy for updating
+ ACLs and other IP sensitive configs when you lack a static IP address.
