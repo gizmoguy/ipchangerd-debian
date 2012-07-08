@@ -1,3 +1,9 @@
+ipchangerd (0.2) unstable; urgency=low
+
+  * Pass IP address to down and up scripts.
+
+ -- Brad Cowie <brad@gizmoguy.net.nz>  Sun, 08 Jul 2012 16:18:37 +1200
+
 ipchangerd (0.1) unstable; urgency=low
 
   * Initial Release.
